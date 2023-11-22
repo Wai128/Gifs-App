@@ -1,17 +1,22 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { SidebarComponent } from './component/sidebar/sidebar.component';
+import { SearchBoxComponent } from '../gifs/components/search-box/search-box.component';
+
 
 
 
 @NgModule({
   declarations: [
     SidebarComponent
+
   ],
   imports: [
-    CommonModule
+    CommonModule,
+
   ],
-  exports:[
+  exports: [
     SidebarComponent,
   ]
 })
